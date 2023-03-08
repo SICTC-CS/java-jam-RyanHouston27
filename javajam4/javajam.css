@@ -76,7 +76,7 @@ footer{
 }
 
 #homehero{
-  background-image: url("images/road.jpg");
+  background-image: url(images/hero.jpg);
           background-repeat: no-repeat;
           background-size: cover;
           display: block;
