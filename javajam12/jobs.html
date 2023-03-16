@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaJam Coffee Bar Jobs</title>
+		<link rel="stylesheet" href="javajam.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="wrapper">
+		<header>
+			<h1><a href="index.html">JavaJam Coffee Bar</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="jobs.html">Jobs</a></li>
+				<li><a href="gear.html">Gear</a></li>
+			</ul>
+		</nav>
+		<main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+			<p>Want to work at JavaJam? Fill out the form below to start your application. All information is required.</p>
+			<form method="post" action="http://webdevbasics.net/scripts/javajam.php">
+			<label for="myName">Name:</label>
+			<input type="text" name="myName" id="myName">
+			<label for="myEmail">Email:</label>
+			<input type="email" name="myEmail" id="myEmail">
+            <label for="myDate">Start Date:</label>
+			<input type="date" name="myDate" id="myDate">
+			<label for="myExperience">Experience:</label>
+			<textarea name="myExperience" id="myExperience" rows="2" cols="20"></textarea>
+			<input type="submit" value="Apply Now">
+			</form>
+		</main>
+		<footer>
+			Copyright &copy 2023 JavaJam Coffee Bar<br>
+			<a href="mailto:ryan@houston.com">ryan@houston.com</a>				
+		</footer>
+		</div>
+	</body>
+</html>
